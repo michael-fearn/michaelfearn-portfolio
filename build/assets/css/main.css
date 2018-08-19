@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import 'font-awesome.min.css';
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500|Oswald:400");
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
 /*
 	Formula by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -1790,6 +1791,7 @@ input[type=radio]:focus + label:before {
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
+  /* background-color:#0077B5; */
 }
 .icon > .label {
   display: none;
@@ -3045,8 +3047,23 @@ body.is-preload #banner .more {
   border-width: 2px;
   border-color: #9cff60;
 } */
-
+.affinity-span {
+  margin-bottom: -10px;
+}
 .affinity-img {
   border-color: #9cff60 !important;
   border-width: 20px !important;
 }
+
+.codepen-title{
+  color: white;
+  font-family: 'Black Han Sans', sans-serif;
+  border-bottom-color: #0EBEFF !important;
+}
+#two {
+  color:white;
+  background-color: #191a1d;
+}
+/* .clonepen-phone {
+  border: 2px solid #0ebeff;
+} */
